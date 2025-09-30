@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import pickle
-from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -103,3 +102,4 @@ if uploaded_file:
             plt.axis('off')
             st.pyplot(plt.gcf())
             plt.clf()
+
